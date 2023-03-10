@@ -95,7 +95,7 @@ main {
 
 }
 
-.info-pago-item {
+.info-pago-elemento {
     display: flex;
     flex-direction: row;
     padding-top: 24px;
@@ -107,13 +107,13 @@ main {
     margin-right: 16.5px;
 }
 
-.info-pago-item-text {
+.info-pago-elementos-textos {
     display: flex;
     flex-direction: column;
 
 }
 
-.item-text {
+.info-pago-elemento-texto {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -166,7 +166,7 @@ main {
     color:  #3483FA;
 }
 
-.ofertas-items {
+.ofertas-elementos{
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -189,7 +189,7 @@ main {
     margin-left: 16px;
 }
 
-.oferta-text-adicional {
+.oferta-texto-adicional {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -230,7 +230,7 @@ main {
 
 }
 
-.oferta-item {
+.oferta-elemento {
     width: 224px;
     height: 350px;
     background-color: #fff;
