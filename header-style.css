@@ -8,6 +8,21 @@
     border: 1px solid red;
 }
 
+.debug-black {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.debug-yellow {
+    border: 1px solid rgb(219, 205, 9);
+}
+
+.debug-blue {
+    border: 1px solid rgb(4, 29, 255);
+}
+
+.debug-green {
+    border: 1px solid rgb(4, 255, 0);
+}
 header {
     background-color: #FFF159;
     height: 100px;
@@ -464,6 +479,139 @@ main {
     
     color: #FFFFFF;   
 
+}
+
+.beneficios {
+    margin-top: 40px;
+    width: 1200px;
+    height: 399.19px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.beneficios-elementos {
+    margin: 0 auto;
+    height: 266px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.beneficios-elemento {
+    border-radius: 6px;
+    width: 384px;
+    height: 250px; 
+}
+
+.beneficios-imagen-principal > img{
+    border-radius: 6px;
+    position: absolute; 
+    z-index: 0;
+}
+
+.beneficios-gradiente {
+    position: absolute; 
+    z-index: 1; 
+    margin-top: 138px; 
+    width: 384px; 
+    height: 112px;
+    border-radius: 6px;
+
+    background: linear-gradient(0deg, #081330 0%, rgba(8, 19, 48, 0) 100%);
+}
+
+.beneficios-gradiente-hbo {
+    position: absolute; 
+    z-index: 1; 
+    margin-top: 138px; 
+    width: 384px; 
+    height: 112px;
+    border-radius: 6px;
+
+    background: linear-gradient(0deg, #3C034E 0%, rgba(60, 3, 78, 0) 100%);
+}
+
+.beneficios-gradiente-paramount {
+    position: absolute; 
+    z-index: 1; 
+    margin-top: 138px; 
+    width: 384px; 
+    height: 112px;
+    border-radius: 6px;
+
+    background: linear-gradient(0deg, #0064FF 0%, rgba(0, 100, 255, 0) 100%);
+}
+
+.beneficios-pie {
+    border-radius: 6px;
+    display: flex; 
+    flex-direction: row; 
+    align-items:center
+
+}
+
+.beneficios-plataforma {
+    margin: 16px ;
+    width: 80px; 
+    height: 80px;
+}
+
+.beneficios-texto-pie {
+    display: flex; 
+    flex-direction: column;
+
+}
+
+.beneficios-texto-principal {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    /* identical to box height, or 109% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.beneficios-texto-secundario {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+
+    color: #FFFFFF;
+}
+
+.beneficios-texto-terciario {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height, or 145% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
 }
 
 
