@@ -931,7 +931,7 @@ main {
 /* Información adicional */
 
 .info-adicional {
-    
+    border-bottom: 1px solid #E6E6E6;
     background-color: #fff;
     height: 300px;
 
@@ -1048,7 +1048,7 @@ main {
 
 footer {
     margin: 0 auto;
-    height: 156px;
+    height: 180px;
     width: 1512px;
 }
 
@@ -1065,6 +1065,19 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.f-elemento-2 {
+    margin-top: 14px;
+    padding-top: 19px;
+    border-top: 1px solid #EDEDED;
+
+}
+
+.f-fila2-imagenes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 #ul-fila-orientacion {
