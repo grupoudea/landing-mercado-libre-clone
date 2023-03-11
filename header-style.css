@@ -82,7 +82,7 @@ main {
 
 .centro-main {
     padding-top: 40px;
-    height: 3586px;
+    height: 3240;
     width: 1200px;
     margin: 0 auto;
     
@@ -888,7 +888,7 @@ main {
 /* categorias populares*/
 
 .categorias-populares {
-    height: 473.19px;
+    height: 430.19px;
     padding-left: 10px;
 }
 
@@ -924,8 +924,124 @@ main {
     display: flex;
     align-items: center;
     text-align: center;
-
-
     color: #333333;
 
+}
+
+/* Información adicional */
+
+.info-adicional {
+    
+    background-color: #fff;
+    height: 300px;
+
+}
+
+.ia-main-elementos {
+    margin: 0 auto;
+    width: 1512px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ia-elemento-1 {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ia-elemento-2 {
+    width: 400px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ia-imagen-principal {
+    margin-bottom: 25px;
+}
+
+.ia-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ia-texto-principal {
+    margin-bottom: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4B4B4B;
+}
+
+.ia-texto-secundario {
+    margin-bottom: 9px;
+    padding-left: 48px;
+    padding-right: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #999999;
+}
+
+.ia-texto-secundario-2 {
+    margin-bottom: 9px;
+    padding-left: 58px;
+    padding-right: 55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #999999;
+}
+
+.ia-texto-terciario {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3483FA;
+
+}
+
+.ia-barra-vertical {
+    margin-top: 128.5px;
+    width: 1px;
+    height: 65px;
+    background: #E2E2E2;
 }
