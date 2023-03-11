@@ -931,7 +931,7 @@ main {
 /* Información adicional */
 
 .info-adicional {
-    
+    border-bottom: 1px solid #E6E6E6;
     background-color: #fff;
     height: 300px;
 
@@ -1044,4 +1044,88 @@ main {
     width: 1px;
     height: 65px;
     background: #E2E2E2;
+}
+
+footer {
+    margin: 0 auto;
+    height: 180px;
+    width: 1512px;
+}
+
+.f-elementos {
+    height: 100%;
+    padding-left: 166px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+}
+
+.f-elemento-1 {
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.f-elemento-2 {
+    margin-top: 14px;
+    padding-top: 19px;
+    border-top: 1px solid #EDEDED;
+
+}
+
+.f-fila2-imagenes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#ul-fila-orientacion {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+
+}
+
+.f-texto-primario {
+    width: 127px;
+    height: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 108% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.f-texto-secundario {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+
+    color: #999999;
+}
+
+.f-copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.f-copyright-texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    color: #999999;
 }
