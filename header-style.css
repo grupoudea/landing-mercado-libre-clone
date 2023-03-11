@@ -976,18 +976,21 @@ main {
 
 .ct-elemento {
     height: 170px;
-    width: 170px;
-    box-sizing: border-box;
-    background-color: #fff;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    width: 170px; 
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 16px;
+
+    box-sizing: border-box;
+    background-color: #fff;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
 }
+
 
 .ct-texto-pie {
     font-family: 'Roboto';
@@ -996,8 +999,9 @@ main {
     font-size: 14px;
     line-height: 16px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
     color: #333333;
 
 }
