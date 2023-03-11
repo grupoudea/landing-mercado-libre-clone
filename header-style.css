@@ -161,6 +161,7 @@ main {
 }
 
 .seccion-encabezado {
+    width: 100%;
     padding-bottom: 23px;
 }
 
@@ -483,7 +484,6 @@ main {
 
 .beneficios {
     margin-top: 40px;
-    width: 1200px;
     height: 399.19px;
     padding-left: 8px;
     padding-right: 8px;
@@ -505,7 +505,7 @@ main {
     height: 250px; 
 }
 
-.beneficios-imagen-principal > img{
+.beneficios-imagen-principal > img {
     border-radius: 6px;
     position: absolute; 
     z-index: 0;
@@ -617,7 +617,6 @@ main {
 /* descubre*/
 
 .descubre {
-    width: 1200px;
     height: 398.19px;
     padding-left: 8px;
     padding-right: 9px;
@@ -717,6 +716,108 @@ main {
 .descubre-imagen > img {
     height: 250px;
     border-radius: 4px;
+}
+
+.mejores-tiendas {
+    height: 505.19px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.mt-elementos {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.mt-elemento {
+    width: 284px;
+    height: 340px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px; 
+}
+
+.mt-encabezado > img{
+    background-color: #fff;
+    position: absolute; 
+    z-index: 0;
+    width: 284px;
+    height: 95px;
+    border-radius: 4px 4px 0 0;
+}
+
+.mt-contendor-imagen-media {
+    padding-top: 55px;
+    height: 80px; 
+    width: 284px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mt-icono-medio {
+    z-index: 1; 
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.mt-img-media {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;}
+
+.mt-cuerpo {
+    margin-top: 26px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.mt-titulo-elemento {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+}
+
+.mt-sub-elementos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+
+}
+
+.mt-sub-elemento {
+    width: 70px;
+    height: 70px;
+
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+}
+
+.mt-vinculo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #999999;
 }
 
 
